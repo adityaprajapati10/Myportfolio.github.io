@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABP PORTFOLIO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: brown;
+            /* position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 900; */
+        }
+
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.1rem;
+            color: black;
+        }
+
+        .hr_class {
+            border: 0;
+            height: 1.5px;
+            margin: 60px 84px;
+            background-color: brown;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.8rem;
+
+        }
+
+        .rigthSection {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(182, 89, 14);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 2.2rem;
+            color: rgb(212, 46, 46);
+        }
+
+        .secondSection p {
+            font-size: 1.3rem;
+            margin: auto;
+            font-weight: 100;
+        }
+
+        .secondSection h2 {
+            color: rgb(196, 107, 25);
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 50vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .VerticalLines {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .secondSection .Edu-icon {
+            height: 40px;
+            position: relative;
+            top: -41px;
+            left: -9px
+        }
+
+        .secondSection .Tenth-title {
+            position: relative;
+            top: 58px;
+            width: 150px;
+
+        }
+
+        .secondSection .Tenth-desc {
+            position: relative;
+            top: 70px;
+            width: 150px;
+            color: grey;
+            /* font-size: 12px; */
+        }
+
+        .secondSection .certifi_List {
+            margin-left: 7%;
+        }
+
+        .secondSection .skill_icon {
+            height: 60px;
+            position: relative;
+            margin-left: 10%;
+        }
+
+        .secondSection .coding {
+            margin-left: 7%;
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .thirdSection h1 {
+            font-size: 2.2rem;
+            color: rgb(212, 46, 46);
+        }
+
+        .thirdSection p {
+            font-size: 1.3rem;
+            margin: auto;
+            font-weight: 100;
+        }
+
+        .thirdSection h2 {
+            color: rgb(196, 107, 25);
+        }
+
+        .thirdSection .project_list a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .thirdSection .project_list a:hover {
+            font-size: 1.4rem;
+            color: white;
+        }
+
+        .forthSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .forthSection h1 {
+            font-size: 2.2rem;
+            color: rgb(212, 46, 46);
+        }
+
+        .forthSection .contact_icon {
+            background-color: white;
+            height: 60px;
+            position: relative;
+            margin-left: 5%;
+        }
+
+        .forthSection .contact_iconTwo {
+            /* background-color: white; */
+            height: 70px;
+            position: relative;
+            margin-left: 5%;
+        }
+
+        footer {
+            background-color: rgb(233, 76, 76);
+
+        }
+
+        .footer_class {
+            display: flex;
+            padding: 23px 122px;
+        }
+
+        footer .footer-textCenter {
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aditya Babu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#firstSectionid">Home</a></li>
+                    <li><a href="#secondSectionid">About Me</a></li>
+                    <li><a href="#thirdSectionid">Projects</a></li>
+                    <li><a target="_main" href="res2.pdf">Resume</a></li>
+                    <li><a href="#forthSectionid">Contact </a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="firstSectionid">
+            <div class="leftSection">
+                Hi, My Name is
+                <span class="purple">Aditya Babu Prajapati</span>
+                <div>and I am a passionate</div>
+                <div>Java Developer and</div>
+                <div>Web Developer</div>
+            </div>
+            <div class="rigthSection">
+                <img src="ABP.png" height="300px">
+            </div>
+        </section>
+
+        <hr class="hr_class">
+
+        <section id="secondSectionid" class="secondSection">
+            <h1>ABOUT</h1>
+            <br>
+            <p>Welcome to my portfolio! I'm Aditya Babu Prajapati, a driven 3rd year B.Tech student pursuing my passion
+                for technology. I thrive on learning new technologies and constantly expanding my skillset. Join me as I
+                create innovative solutions through web development and Java programming.</p><br><br>
+
+            <h2>Educational Background</h2><br>
+
+            <div class="box">
+
+                <div class="VerticalLines">
+                    <img class="Edu-icon" src="Education.png">
+                    <div class="Tenth-title">
+                        Class 10th(2017-2018)
+                    </div>
+                    <div class="Tenth-desc">
+                        I had completed my class 10th from Aditya Birla Intermediate College,Renukoot, Sonebhadra(U.P)
+                        with 83 % .
+                    </div>
+                </div>
+
+                <div class="VerticalLines">
+                    <img class="Edu-icon" src="Education.png">
+                    <div class="Tenth-title">
+                        Class 12th(2019-2020)
+                    </div>
+                    <div class="Tenth-desc">
+                        I had completed my class 12th from Aditya Birla Intermediate College,Renukoot, Sonebhadra(U.P)
+                        with 81.2 % .
+                    </div>
+                </div>
+
+                <div class="VerticalLines">
+                    <img class="Edu-icon" src="Education.png">
+                    <div class="Tenth-title">
+                        Graduation(B.Tech)(2021-Ongoing)
+                    </div>
+                    <div class="Tenth-desc">
+                        I'm Currently pursuing B.Tech in Computer Science from Vellore Institute of technology, Bhopal
+                        with aggregate CGPA 8.12.
+                    </div>
+                </div>
+
+
+            </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2>Certificates</h2><br>
+
+            <div class="certifi_List">
+                <ul>
+                    <li>
+                        <p>
+                            Successfully completed The 3 sessions of U.P. BHARAT SCOUTS & GUIDES (2014, 2016, 2017)
+                        </p>
+                    </li><br>
+
+                    <li>
+                        <p>
+                            Successfully completed The DIPLOMA IN COMPUTER APPLICATION (2018)
+                        </p>
+                    </li><br>
+
+                    <li>
+                        <p>
+                            Successfully completed The Bits and Bytes of Computer Networking (Coursera, 2023)</p>
+                    </li><br>
+
+                    <li>
+                        <p>
+                            Successfully completed Intro to SQL (Kaggle, 2023)</p>
+                    </li><br><br><br>
+
+                </ul>
+            </div>
+
+            <h2>Technical Skills</h2><br>
+            <img class="skill_icon" src="java.png">
+            <img class="skill_icon" src="html.png">
+            <img class="skill_icon" src="css.png">
+            <br><br>
+
+            <div class="coding">
+                <ul>
+                    <li>
+                        <p>Hackerrank 5 Star in Java with Rank under 138000</p>
+                    </li>
+                </ul><br><br>
+            </div>
+
+            <h2>Hobbies</h2><br>
+            <div class="certifi_List">
+                <ul>
+                    <Li>
+                        <p>Read numerous books such as Scriptures</p>
+                    </Li>
+                    <Li>
+                        <p>Love to play different sports like Cricket, Football, Chess</p>
+                    </Li>
+                </ul><br><br>
+            </div>
+
+            <h2>Languages</h2><br>
+            <div class="certifi_List">
+                <ul>
+                    <li>
+                        <p>English</p>
+                    </li>
+                    <li>
+                        <p>Hindi</p>
+                    </li>
+                </ul>
+            </div>
+
+
+        </section>
+
+        <hr class="hr_class">
+
+
+        <section class="thirdSection" id="thirdSectionid">
+
+            <h1>PROJECTS</h1><br><br>
+
+            <h2>Dhobi Wala</h2><br>
+            <div class="project_list">
+                <ul>
+                    <li>
+                        <p>Description :</p>
+                        <p>Implemented features to automate pricing calculations based on type of laundry, resulting in
+                            improved accuracy and faster transaction processing.</p>
+                    </li><br>
+
+                    <li>
+                        <p>Technology :</p>
+                        <p>HTML/CSS, JavaScript, PHP, SQL</p>
+                    </li><br>
+
+                    <li>
+                        <p>Team Project :</p>
+                        <p>4 members</p>
+                    </li><br>
+
+                    <li>
+                        <p>Role :</p>
+                        <p>Front-End Developer</p>
+                    </li><br>
+
+                    <li>
+                        <p>Repository Link :
+                            <a target="_main" href="https://github.com/adityaprajapati10/dhobiwalaweb">
+                                Click Here</a>
+                        </p>
+                    </li><br>
+
+                </ul><br><br>
+
+            </div>
+
+            <h2>Paryatanam</h2><br>
+            <div class="project_list">
+                <ul>
+                    <li>
+                        <p>Description :</p>
+                        <p> Our website connects users with the best travel packages and event information.</p>
+                    </li><br>
+
+                    <li>
+                        <p>Technology :</p>
+                        <p>HTML/CSS, JavaScript, ReactJs, PHP, SQL</p>
+                    </li><br>
+
+                    <li>
+                        <p>Team Project :</p>
+                        <p>4 members</p>
+                    </li><br>
+
+                    <li>
+                        <p>Role :</p>
+                        <p>Front-End Developer</p>
+                    </li><br>
+
+                    <li>
+                        <p>Repository Link :
+                            <a target="_main" href="https://github.com/adityaprajapati10/ParayatanamProject">
+                                Click Here</a>
+                        </p>
+                    </li><br>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <hr class="hr_class">
+
+
+        <section class="forthSection" id="forthSectionid">
+            <h1>Contact Me</h1><br><br>
+
+            <a target="_main" href="mailto:adityababuprajapati@gmail.com">
+                <img class="contact_iconTwo" src="Gmail.png"></a>
+
+            <a target="_main" href="https://www.linkedin.com/in/aditya-babu-prajapati-94887a267/">
+                <img class="contact_iconTwo" src="linkedin.png"></a>
+
+            <a target="_main" href="https://github.com/adityaprajapati10">
+                <img class="contact_icon" src="GitHub.png"></a>
+
+        </section>
+
+        <hr class="hr_class">
+
+    </main>
+
+    <footer>
+        <div class="footer_class">
+            <div class="foter-first">
+                <h3>Aditya Babu's Portfolio</h3>
+            </div>
+
+        </div>
+        <div class="footer-textCenter">
+            Copyright &#169; adityababusportfolio.com | all right reserved
+        </div>
+    </footer>
+
+</body>
+
+</html>
